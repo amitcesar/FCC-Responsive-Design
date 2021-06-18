@@ -11,25 +11,66 @@
 <body>
     <header id='header' class='header'>
   
-     
       <nav id='nav-bar' class='nav-bar'>
        <ul class='navigation'>
-        <li class='nav-link'><a href='#'><img id='header-img' src='images/mochi.svg'/></a></li>
-        <li class='nav-link'><a href='#'>Book</a></li>
-         <li class='nav-link'><a href='#'>Menu</a></li>
-         <li class='nav-link'><a href='#'>Gallery</a></li>
+        <li ><a class='nav-link' href='#book'><img id='header-img' src='images/pizza.png' ></a></li>
+        <li><a class='nav-link' href='#book'>Book</a></li>
+        <li ><a class='nav-link' href='#menu'>Menu</a></li>
+        <li ><a class='nav-link' href='#menu'>Gallery</a></li>
+       
        </ul>
       </nav>
     </header>
-   
+
     <section id='book' class='book' >
-      <h2> we are full for the week, put your email below and make your reservation beforehand  </h2>
+      <h2 id='#book-section'class='book-header title'>We are full for the week. </h2>
+      <p class='book-header subtitle'>Please, place your email below and make your reservation beforehand. </p> 
+      
       <form id='form' action="somelink">
         <input id='email' type='email' name='email' class='email-reservation'  placeholder="Enter your email address" required>
-        <button type="submit" class='button-submit'>Get Started</button>
+        <input id='submit' type="submit" class='button-submit' value='Booking'>
       </form>
     </section>
 
+    <section id='menu' class='menu'>
+        <div class='menu-container'>
+          <img src='images/fried-egg.png' />
+          <div class='menu-text'>
+            <h2 id='#menu-section'>Breakfast</h2>
+            <p>uisque rhoncus euismod pulvinar. Nulla non arcu at lectus. Vestibulum velit.</p>
+          </div>
+        </div>
+          
+       <div class='menu-container'>
+        <img src='images/fried-rice.png' />
+          <div class='menu-text'>
+            <h2>Brazilian food in lunch time</h2>
+            <p>uisque rhoncus euismod pulvinar. Nulla non arcu at lectus. Vestibulum velit.uisque rhoncus euismod pulvinar. Nulla non arcu at lectus. Vestibulum velit.</p>
+          </div>
+       </div>
+          
+      <div class='menu-container'>
+        <img src='images/pizza-slice.png' />
+        <div class='menu-text'>
+          <h2>Best pizza in neighborhood</h2>
+          <p>uisque rhoncus euismod pulvinar. Nulla non arcu at lectus. Vestibulum velit.</p>
+        </div>
+      </div>
+    </section>
+    <section class='gallery'>
+       <!-- -->
+        <div class='video-wrapper' style="--aspect-ratio: 3 / 4">
+          <iframe id='video' width="560" height="349" 
+        src="https://www.youtube.com/embed/dYy3jWR2OZY"
+         title="YouTube video player" 
+         frameborder="0" allow="accelerometer; 
+         autoplay; clipboard-write; encrypted-media;
+         gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+    </section>
+
+    
 </body>
-<script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+<script id src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
 </html>
