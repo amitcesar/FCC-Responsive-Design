@@ -89,7 +89,7 @@ align-items: center;
 }
 
 
-.menu-container {
+.service-container {
   padding: 1rem 0;
   border-radius: 4px;
   margin-bottom: 2rem;
@@ -99,12 +99,12 @@ align-items: center;
   align-items: center;
 }
 
-.menu-container img {
+.service-container img {
   display: block;
   margin: 1rem 4rem 0 2rem;
 }
 
-.menu-container .menu-text {
+.service-container .service-text {
   width: 100%;
   margin-right: 1rem;
 }
@@ -160,7 +160,10 @@ align-items: center;
 }
 
 
+
+
 @media only screen and (min-width: 901px) {
+
   .menu-container {
     width: 960px;
     margin: 0 auto;
