@@ -9,11 +9,10 @@ body {
   font-size: 1rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-style: italic;
+  font-style: normal;
   color:  #262626;
   height: 1200px;
-  background: #cfd8dc;
- 
+  background: #edeff0;
 }
 
 .header {
@@ -25,7 +24,7 @@ body {
 
 .navigation {
 background: #fff;
-box-shadow: 0px 0px 5px;
+box-shadow: 0px 0px 4px;
 padding: 1rem 0;
 margin: 0;
 border-radius: 4px;
@@ -62,7 +61,6 @@ align-items: center;
  justify-content: center;
  align-items: center;
  padding: 2rem;
-
 }
 
 .book-header {
@@ -72,22 +70,23 @@ align-items: center;
 .book .email-reservation {
   width: 300px;
   border: 1px solid #ccc;
-  height: 1.5rem;
+  height: 2rem;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: 1em;
-  border-radius: 3px;
+  border-radius: 1px;
 }
 
 .book .button-submit {
   display: block;
   width: 50%;
+  height: 30px;
   margin: auto;
   background: #f7be63;
   font-size: 1em;
   border-radius: 4px;
+  font-weight: bold;
 }
-
 
 
 .menu-container {
@@ -98,7 +97,6 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .menu-container img {
@@ -111,22 +109,55 @@ align-items: center;
   margin-right: 1rem;
 }
 
-
 .video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-  padding-bottom: calc(var(--aspect-ratio, .5625) * 100%); 
+  margin: 1rem 0;
 }
 
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.card {
+  width: 300px;
+  height: 317px;
+  border: 1px solid #46484a;
+  border-radius: 3px;
+  margin: 0.5rem;
+  
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.card .card-header {
   width: 100%;
-  height: 100%;
+  padding: 1em 0;
+  margin: 0 auto;
+  background: #d7dbde;
+  font-weight: bold;
 }
 
+.card .card-detail,
+.card h3 {
+ padding-bottom: 0.5em;
+}
+
+.footer {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  background: #d2d6d9;
+  text-align: center;
+  height: 2em;
+}
 
 
 @media only screen and (min-width: 901px) {
@@ -135,9 +166,11 @@ align-items: center;
     margin: 0 auto;
     margin-bottom: 2rem;
   }
-  .gallery {
-    width: 300px;
-    margin: 0 auto;
-  }
 
+  .video-wrapper {
+   width: 500px;
+   margin: 0 auto;
+  }
+  
 }
+
