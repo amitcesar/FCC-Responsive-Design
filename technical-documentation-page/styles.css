@@ -9,6 +9,11 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  line-height: 1.4;
+}
+
+.navbar {
+  border: 1px solid #636363;
 }
 
 .navbar ul,
@@ -21,29 +26,76 @@ body {
   text-decoration: none;
 }
 
+.navbar ul {
+  padding: 0;
+  height: 210px;
+  overflow-y: auto;
+}
 
 .navbar header {
   font-weight: bold;
   text-align: center;
-  font-size: 29px;
-  padding: 0.5em 0;
+  font-size: 1.8rem;
+  padding: 0.8em 0;
+  margin: 0;
 }
-.main-section header {
-  font-weight: bold;
-  font-size: 32px;
 
+.navbar ul a{
+  display: block;
+  padding: 0.7em 1.5em;
+  border: 1px solid #636363;
 }
+
+.main-section header {
+  padding: 0.45em;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.main-section .section-description {
+  padding: 1em 2.245em;
+}
+
+.main-section .section-description p,
+.main-section .section-description li,
+.main-section .section-description code {
+  padding-bottom: 1em;
+}
+
+
 
 /* Tablet */ 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body{
-    background-color: #F5CF8E;
+    background-color: #ffd6d6;
   }
 }
 
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
+/* Desktop */
+@media only screen and (min-width: 815px) {
   body {
-    background-color: #B2D6FF; /* Blue */
+    
+    background-color: #B2D6FF; 
+    display: flex;
   }
+  
+  .navbar{
+    
+    height: 100vh;
+  }
+
+  .navbar ul {
+   
+    min-width: 290px;
+    width: 300px;
+    height: 100vh;
+ }
+
+  .main-section header {
+    padding: 1em;
+  }
+ 
+
+ 
 }
+
