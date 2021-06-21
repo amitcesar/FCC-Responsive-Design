@@ -53,29 +53,33 @@ body {
 }
 
 .main-section .section-description {
-  padding: 1em 2.245em;
+  padding: 0.5em 2.245em;
 }
 
 .main-section .section-description p,
-.main-section .section-description li,
-.main-section .section-description code {
+.main-section .section-description li {
   padding-bottom: 1em;
 }
 
+.main-section code{
+  padding: 1em;
+  border-radius: 5px;
+  background: #fff;
+  display: block;
+}
 
 
 /* Tablet */ 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body{
-    background-color: #ffd6d6;
+    background-color: #fff1de;
   }
 }
 
 /* Desktop */
 @media only screen and (min-width: 815px) {
   body {
-    
-    background-color: #B2D6FF; 
+    background-color: #deeeff; 
     display: flex;
   }
   
