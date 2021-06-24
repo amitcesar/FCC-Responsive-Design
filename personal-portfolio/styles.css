@@ -59,7 +59,6 @@ body {
   justify-content: center;
   align-items: center;
 
-
 }
 
 .welcome .title {
@@ -84,11 +83,31 @@ body {
 .welcome p {
   font-size: 1.2rem;
   text-align: center;
-
   padding: 1em;
   color: #5d95f5;
 }
 
+.projects {
+  color:#fff;
+  background: #346fcf;
+  height: 500px;
+  text-align: center;
+}
+
+.projects header {
+  border-bottom: 1px solid #fff;
+}
+
+.project-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+}
 
 
 
+.projects .project-tile {
+  width: 600px;
+  border: 1px solid red;
+}
