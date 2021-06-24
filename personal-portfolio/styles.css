@@ -90,7 +90,7 @@ body {
 .projects {
   color:#fff;
   background: #346fcf;
-  height: 500px;
+ height: 100%;
   text-align: center;
 }
 
@@ -109,5 +109,6 @@ body {
 
 .projects .project-tile {
   width: 600px;
-  border: 1px solid red;
+ height: 400px;
+ border: 1px solid #fff;
 }
