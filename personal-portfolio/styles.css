@@ -10,8 +10,9 @@ body {
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  background: #f1f1f1;
+  background: #2D2D2D; /* before f1f1f1 */
   min-height: 100vh;
+  width: 100%;
 }
 
  img, a {
@@ -90,52 +91,76 @@ body {
 .projects {
   color:#fff;
   background: #346fcf;
- 
   text-align: center;
-  padding-top: 2em;
 }
 
-.projects header {
-  padding: 1em;
+.projects h2 {
+  font-size: 1.8em;
   border-bottom: 1px solid #fff;
+  padding-top: 2em;
+}
+.projects p {
+  font-size: 1.1rem;
 }
 
 .project-wrapper {
+  
+  margin: 2em 0;
+  padding: 0.5em;
+
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-content: center;
- 
+
 } 
 
  .project-tile {
-  margin: 1em;
-
-
-}
-
-.project-tile {
-  padding-top: 1em;
+  padding: 0.5em 0;
 }
 
 .project-tile img {
+  object-fit: cover;
   width: 100%;
-
-  margin: 0 auto;
 }
 
 .project-tile p {
-  width: 100%;
+  padding-top: 0.5em;
+  height: 50px;
   background: #233e54;
 }
 
 .project-tile a:link,
 .project-tile a:visited {
-  color: #EEEEEE;
-  font-weight: bolder;
+  color: #fff;
   text-decoration: none;
+  font-weight: bolder;
 }
 
-.project-tile a:hover { 
-  background: rgb(82, 82, 84);
+ .hoover {
+  display: none;
+  font-size: 0.9rem;
+}
+
+.project-tile:hover .hoover {
+  display: inline;
+  transition: color 0.3s ease-out;
+  color: #ff7f50;
+}
+
+.contact{
+  text-align: center;
+  
+}
+
+
+
+.contact ul {
+  list-style: none;
+}
+
+.footer {
+
+background: #2D2D2D;
+color: #fff;
 }
