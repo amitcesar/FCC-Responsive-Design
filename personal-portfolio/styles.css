@@ -11,6 +11,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   background: #f1f1f1;
+  min-height: 100vh;
 }
 
  img, a {
@@ -77,7 +78,6 @@ body {
   background: #5d95f5;
   margin-left:  0.05em;   
   margin-bottom: 0.26em;
-  
 } 
 
 .welcome p {
@@ -90,25 +90,52 @@ body {
 .projects {
   color:#fff;
   background: #346fcf;
- height: 100%;
+ 
   text-align: center;
+  padding-top: 2em;
 }
 
 .projects header {
+  padding: 1em;
   border-bottom: 1px solid #fff;
 }
 
 .project-wrapper {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   justify-content: center;
   align-content: center;
+ 
+} 
+
+ .project-tile {
+  margin: 1em;
+
+
 }
 
+.project-tile {
+  padding-top: 1em;
+}
 
+.project-tile img {
+  width: 100%;
 
-.projects .project-tile {
-  width: 600px;
- height: 400px;
- border: 1px solid #fff;
+  margin: 0 auto;
+}
+
+.project-tile p {
+  width: 100%;
+  background: #233e54;
+}
+
+.project-tile a:link,
+.project-tile a:visited {
+  color: #EEEEEE;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.project-tile a:hover { 
+  background: rgb(82, 82, 84);
 }
