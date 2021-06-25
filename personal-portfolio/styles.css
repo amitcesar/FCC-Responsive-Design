@@ -95,16 +95,18 @@ body {
 }
 
 .projects h2 {
-  font-size: 1.8em;
+  font-size: 2em;
+  font-weight: 400;
   border-bottom: 1px solid #fff;
   padding-top: 2em;
 }
+
 .projects p {
   font-size: 1.1rem;
+  padding-top: 2em;
 }
 
 .project-wrapper {
-  
   margin: 2em 0;
   padding: 0.5em;
 
@@ -122,12 +124,15 @@ body {
 .project-tile img {
   object-fit: cover;
   width: 100%;
+  
 }
 
 .project-tile p {
   padding-top: 0.5em;
   height: 50px;
   background: #233e54;
+ 
+  border-radius: 2px;
 }
 
 .project-tile a:link,
@@ -148,11 +153,11 @@ body {
   color: #ff7f50;
 }
 
-.contact{
+.contact {
+  height: 600px;
+  width: 100%;
   text-align: center;
-  
 }
-
 
 
 .contact ul {
@@ -160,7 +165,8 @@ body {
 }
 
 .footer {
-
+border: 2px solid red;
 background: #2D2D2D;
 color: #fff;
+
 }
