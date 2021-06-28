@@ -167,7 +167,7 @@ body {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 
 }
 
@@ -227,3 +227,50 @@ body {
     padding: 1.1rem;
   }
 } 
+
+@media only screen and (min-width: 714px) {
+  .project-wrapper {
+    flex-direction: row;
+    justify-content: space-around;
+   
+    align-items: center;
+    
+  } 
+  .project-tile {
+   
+    height:  100%;
+    width: 48%;
+   
+  }
+  .project-tile img,
+  .project-tile a{
+    display: inline;
+  }
+  .project-tile p{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  } 
+  .bode {
+    align-self: flex-end;
+  
+  }
+ 
+ 
+}
+
+
+@media only screen and (min-width: 901px) {
+  .project-wrapper {
+    width:  1000px;
+    margin: 0 auto;
+  
+  } 
+  
+  .sloth {
+    order: 2;
+  }
+  .bode {
+    order: 1;
+  }
+}
