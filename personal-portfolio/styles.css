@@ -209,22 +209,13 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
- 
-
 }
 
 
 
 .footer img {
   display: inline-block;
-
-  border-top-right-radius: 45%;
-  border-top-left-radius: 45%;
-
-  
-  border-bottom-right-radius: 40% 50%;
-  border-bottom-left-radius: 40% 50%;
-
-  
-  background: rgb(255, 66, 79) 
+  width: 24px;
+  border-radius: 10px  10px  35px 35px; 
+  background: rgb(255, 66, 79) ;
 }
