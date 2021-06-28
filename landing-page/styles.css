@@ -97,6 +97,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .service-container img {
@@ -174,6 +175,23 @@ align-items: center;
    width: 500px;
    margin: 0 auto;
   }
+
+  .service {
+    margin-bottom: 2rem;
+  }
+
+  .service-container {
+    margin: 0 auto;
+    width: 500px;
+  }
+  
+  .card-container{
+    padding: 1em;
+  
+    display: flex;
+    flex-direction: row;
+  }
+
   
 }
 

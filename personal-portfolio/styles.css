@@ -13,7 +13,6 @@ body {
   background: #dadbe0; /* before f1f1f1 */
   min-height: 100vh;
   width: 100%;
-
 }
 
  img, a {
@@ -48,10 +47,9 @@ body {
   padding: 1rem;
 }
 
-/* 
 .navbar a:last-of-type {
-  margin-right: 0.5em;
-} */
+  margin-right: 1rem;
+} 
 
 
 .welcome {
@@ -212,10 +210,20 @@ body {
 }
 
 
-
 .footer img {
   display: inline-block;
   width: 24px;
   border-radius: 10px  10px  35px 35px; 
   background: rgb(255, 66, 79) ;
 }
+
+ @media only screen and (min-width: 468px) {
+   .navbar ul {
+    display: flex;
+    justify-content: flex-end;
+  }  
+
+  .navbar .navbar-links{
+    padding: 1.1rem;
+  }
+} 
